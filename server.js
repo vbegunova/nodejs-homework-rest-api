@@ -1,6 +1,3 @@
-// mongodb+srv://Veronika:<password>@cluster0.246mj4a.mongodb.net/
-// 9nU1kz5ZkGSDjZZL
-
 const mongoose = require("mongoose");
 
 const app = require("./app");
