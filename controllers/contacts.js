@@ -16,7 +16,7 @@ const listContacts = async (req, res, next) => {
     skip,
     limit,
   }).populate("owner", "email subscription");
-  
+
   res.status(200).json({ result, page, limit });
 };
 
